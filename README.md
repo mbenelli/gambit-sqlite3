@@ -39,7 +39,7 @@ This function take a string (name of database file) and return two functions:
 a left-fold enumerator and a function to close database.
 
 The left-fold enumerator is inspired from the Oleg Kiselyov
-[http://okmij.org/ftp/Scheme/#databases] [1] and has
+[linkhttp://okmij.org/ftp/Scheme/#databases] [1] and has
 following signature:
 
 function initial-seed query -> result
