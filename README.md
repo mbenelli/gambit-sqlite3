@@ -38,7 +38,8 @@ The high-level layer is made of a single function (sqlite3).
 This function take a string (name of database file) and return two functions:
 a left-fold enumerator and a function to close database.
 
-The left-fold enumerator is inspired from the Oleg Kiselyov [1] and has
+The left-fold enumerator is inspired from the Oleg Kiselyov
+[http://okmij.org/ftp/Scheme/#databases] [1] and has
 following signature:
 
 function initial-seed query -> result
@@ -67,4 +68,3 @@ Contact
 Marco Benelli <mbenelli@yahoo.com>
 
 
-[1] http://okmij.org/ftp/Scheme/#databases
